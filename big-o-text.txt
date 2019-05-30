@@ -1,0 +1,43 @@
+1-1: This is constant. Yelling out to 15 people is like searching for a single in an array.
+1-2: This is linear. You are going through the line one by one
+
+2. Both if statements are constants, therefore the big o is constant
+
+3. areYouHere is polynomial since the algorithm needs a nested for loop so it functions 
+    like this O(n^2).
+
+4. The big o is Linear since it depends on the length of the array.
+
+5. Also linear, same as 4
+
+6. createPairs is polynomial because of the nested for loop
+
+7. This algorithm is running a fibonacci sequence since it's putting each number into
+    the array until is reaches num. The complexity is linear since it's dependent on the length.
+
+8. efficientSearch is logarithmic. The numbers are being divided in half 
+compouding until one of the conditions are met.
+
+9. Consant since it returns one random number
+
+10. The algorithm takes n and checks if it's prime or composite. This would be linear based on
+    it's dependece on a number being passed in.
+
+11. parts one and two are in the js file
+11-3 At the 7th move discs are at the dst (destination) while 4 & 5 are still at the start
+11-4 3 discs 7 moves, 4 discs 15 moves, 5 discs 31 moves
+11-5 Exponential
+
+12 on the js file
+
+13-1: It is linear since it is dependent on the size of n.
+13-2: It is linear since it is dependent on the size of exp.
+13-3: It is linear since it is dependent on the length of the string.
+13-4: It is linear since it is dependent on the size of n.
+13-5: It is linear. It is dependent on the length of the string.
+13-6: It is exponential since it's dependent on both the size of n and the recurision is called twice.
+13-7: It's linear since It is dependent on the size of n.
+13-8: It's exponential because the recurision is inside of nested loops.
+13-9 & 13-10: This is polynomial because the recurision is always called four times. (x^4)
+
+14. they are all Linear since they are dependent on one varible or length of string
